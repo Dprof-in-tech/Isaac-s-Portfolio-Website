@@ -4,6 +4,10 @@
     font-size: 87px;
     font-style: italic;
     color: white;
+    animation-name: quote;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 #nav{
     height: 30px;
