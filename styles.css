@@ -15,7 +15,8 @@
     width: 100px;
     text-align: center;
     margin-left: 55px;
-    display: inline-block;
+    display: flexbox;
+    flex-wrap: wrap;
 }
 #nav:hover{
     background-color: cyan;
