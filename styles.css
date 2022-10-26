@@ -7,8 +7,7 @@
     animation-name: quote;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
-   
+    animation-direction: alternate;  
 }
 #nav{
     height: 30px;
@@ -63,7 +62,6 @@ h1{
     75% {color: cyan;}
     100% { color: fuchsia;}
 }
-
 .quote{
     animation-name: quote;
     animation-duration: 6s;
@@ -121,4 +119,3 @@ h1{
     50%{color: orangered;}
     100%{color: cyan;}
 }
-
