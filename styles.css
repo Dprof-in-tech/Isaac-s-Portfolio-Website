@@ -17,6 +17,9 @@
     margin-left: 55px;
     display: flexbox;
     flex-wrap: wrap;
+    animation-name: nav;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 #nav:hover{
     background-color: cyan;
@@ -49,9 +52,6 @@ h1{
     animation-name: quote;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-}
-p{
-    color: orangered;
 }
 #email{
     height: 35px;
@@ -93,3 +93,32 @@ p{
     background-color: none;
     font-size: 55px;
 }
+.contact{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: white;
+    margin-top: 50px;    
+}
+.message{
+    margin-top: 25px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+#message{
+    color: white;
+    text-align: left;
+}
+#messagebox{
+    text-align: center;
+    height: 320px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@keyframes nav{
+    50%{color: orangered;}
+    100%{color: cyan;}
+}
+
