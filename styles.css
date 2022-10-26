@@ -1,0 +1,58 @@
+#header {
+    background-color: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 87px;
+    font-style: italic;
+    color: white;
+}
+#nav{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-left: 55px;
+    display: inline-block;
+}
+#nav:hover{
+    background-color: goldenrod;
+}
+body{
+    background: url("https://th.bing.com/th/id/OIP.eMhtHbsihlRSUFT_zhJn9AHaEK?pid=ImgDet&rs=1") no-repeat fixed ;
+    background-size: cover;
+}
+@keyframes quote {
+    25% {color: white;}
+    50% {Color: orangered;}
+    75% {color: cyan;}
+    100% { color: fuchsia;}
+}
+
+.quote{
+    animation-name: quote;
+    animation-duration: 6s;
+    -o-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 150px;
+    color: white;
+    background-color: none;
+    font-size: 67px;
+    max-width: 760px;
+    font-style: italic;
+}
+.about{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 150px;
+    color: white;
+    background-color: none;
+    font-size: 55px;
+}
+#Offer{
+    text-align: left;
+    margin-top: 150px;
+    color: white;
+    background-color: none;
+    font-size: 55px;
+}
