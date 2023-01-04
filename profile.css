@@ -1,0 +1,99 @@
+@media only screen and (min-width: 992px) {
+    body{
+        background: url(./workstation\ 2.jpg);
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+    }
+    .profile{
+        margin-top: 2rem;
+        display: block;
+        width: 75%;
+        border-radius: 12px;
+        background-color: white;
+    }
+    .profile>*{
+        padding-left: 2rem;
+    }
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-size: 2rem;
+        font-style: oblique;
+        margin-bottom: 0;
+    }
+    h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-size: 1rem;
+        font-style: oblique;
+        margin-bottom: 0;
+        margin-top: -0.1rem;
+    }
+    h4{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+        font-style: oblique;
+        margin-bottom: 0;
+    }
+    hr{
+        width: 95%;
+        margin-left: -0.2rem;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -1.5rem;
+    }
+    .c-left, .c-right{
+        margin-left: -22%;
+    }
+    .c-left>ul, .c-right>ul{
+        list-style-type: none;
+    }
+    .c-left>ul>li, .c-right>ul>li{
+        font: 1.3rem;
+        font-weight: 600;
+        padding-top: 0.5rem;
+    }
+    .description{
+        margin-top: 1rem;
+    }
+    .description>p{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .summary>*{
+        padding-right: 5rem;
+    }
+    .summary, .sum{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    .e-right2{
+        position: relative;
+        left: -20%;
+    }
+    .e-right>h5{
+        margin-top: -0rem;
+    }
+    .e-right1{
+        position: relative;
+        left: -14%;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        transform: scale(1.2);
+    }
+    a:link{
+        color: blueviolet;
+    }
+    a:visited{
+        color: blueviolet;
+    }
+   
+}
