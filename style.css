@@ -155,7 +155,7 @@ h2{
 }
 
 .n-middle{
-    width: 100%;
+    width: fit-content;
     display: flex;
     gap: 2rem;
 }
@@ -232,6 +232,7 @@ h2{
         border-radius: 12px;
         border-style: hidden;
         padding: 0;
+        gap: 1rem;
         align-items: center;
         background-color: rgb(165, 164, 164);
     }
