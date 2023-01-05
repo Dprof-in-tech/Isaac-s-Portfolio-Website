@@ -258,15 +258,6 @@ h2{
         left: -10%;
         gap: 1rem;
     }
-    .n-middle>:nth-child(2){
-        display: none;
-    }
-    .n-right>:nth-child(1){
-        display: none;
-    }
-    .n-right>:nth-child(2){
-        display: none;
-    }
     .n-right>:nth-child(5){
         display: none;
     }
@@ -346,7 +337,7 @@ h2{
     }
     .b-right{
         position: relative;
-        right: 60%;
+        right: 40%;
         color: white;
     }
     .cont{
