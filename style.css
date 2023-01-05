@@ -256,7 +256,7 @@ h2{
     .n-right{
         position: relative;
         display: flex;
-        left: -10%;
+        left: 0%;
         gap: 1rem;
     }
     .n-right>:nth-child(2){
