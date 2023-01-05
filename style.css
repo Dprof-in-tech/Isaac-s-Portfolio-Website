@@ -270,6 +270,9 @@ h2{
     .n-right>:nth-child(6){
         display: none;
     }
+    .n-middle>:nth-child(2){
+        display: none;
+    }
     span{
         margin-top: 0.5rem;
     }
