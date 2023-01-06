@@ -187,6 +187,12 @@ h2{
         background-repeat: no-repeat;
     }
     @keyframes example {
+        
+         0%{
+            background: url(./workstation\ 1.jpg);
+            background-size: 720px 1440px;
+            background-repeat: no-repeat;
+        }
         15%{
             background: url(./workstation\ 2.jpg);
             background-size: 720px 1440px;
