@@ -9,6 +9,11 @@ body{
     background-repeat: no-repeat;
 }
 @keyframes example {
+      0%{
+            background: url(./workstation\ 1.jpg);
+            background-size: 720px 1440px;
+            background-repeat: no-repeat;
+        }
     15%{
         background: url(./workstation\ 2.jpg);
         background-size: cover;
@@ -74,7 +79,7 @@ body{
 .n-right{
     position: relative;
     display: flex;
-    left: -10%;
+    left: -30%;
     gap: 1rem;
 }
 .container{
@@ -161,7 +166,7 @@ h2{
 }
 .b-right{
     position: relative;
-    right: 0;
+    right: 20%;
     color: white;
 }
 .cont{
