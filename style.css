@@ -266,7 +266,8 @@ h2{
     }
     .n-right{
         display: flex;
-        gap: 0.5rem;
+        margin-left: -3%;
+        gap: 1rem;
         padding-right: 1rem;
     }
     .n-right>:nth-child(2){
