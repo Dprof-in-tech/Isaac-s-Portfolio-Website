@@ -370,56 +370,56 @@ h2{
         margin-bottom: 0.5rem;
     }
     }
-    @media only screen and (min-width: 721px) {
+    @media only screen and (min-width: 721px) and (max-width: 991px)  {
         body{
             animation-name: example;
             animation-duration: 20s;
             animation-iteration-count: infinite;
             animation-direction: alternate;
             background: url(./workstation\ 1.jpg);
-            background-size: 720px 1440px;
+            background-size: auto 1440px;
             background-repeat: no-repeat;
         }
         @keyframes example {
             
              0%{
                 background: url(./workstation\ 1.jpg);
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
             15%{
                 background: url(./workstation\ 2.jpg);
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
             25%{
                 background: url(./workstation\ 3.jpg) ;
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
             35%{
                 background: url(./workstattion\ 4.jpg) ;
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
             60%{
                 background: url(./workstation\ 5.jpg) ;
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
             78%{
                 background: url(./workstation\ 6.jpg) ;
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
             87%{
                 background: url(./workstation\ 7.jpg) ;
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
             100%{
                 background: url(./workstation\ 6.jpg) ;
-                background-size: 720px 1440px;
+                background-size: auto 1440px;
                 background-repeat: no-repeat;
             }
         }
