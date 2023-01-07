@@ -79,7 +79,7 @@ body{
 .n-right{
     position: relative;
     display: flex;
-    left: 0%;
+    left: -10%;
     gap: 1rem;
 }
 .container{
