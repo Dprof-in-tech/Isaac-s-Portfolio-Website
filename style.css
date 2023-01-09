@@ -11,7 +11,7 @@ body{
 @keyframes example {
       0%{
             background: url(./workstation\ 1.jpg);
-            background-size: 720px 1440px;
+            background-size: cover;
             background-repeat: no-repeat;
         }
     15%{
