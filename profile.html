@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="./ReadyPlayerMe-Avatar.png" type="image/x-icon">
     <title>Isaac's Profile</title>
 </head>
-<body>
+<body onload="playAudio()">
     <div class="n-middle">
         
         
@@ -200,5 +200,13 @@
         </div>
     </div>
     </section>
+
+    <script>
+        function playAudio(){
+            var audio = new Audio("./Libianca-People-_-Instrumental.mp3");
+            audio.loop=true;
+            audio.play();
+        }
+    </script>
 </body>
 </html>

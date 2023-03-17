@@ -1,289 +1,42 @@
-@media only screen and (min-width: 992px) {
-body{
-    animation-name: example;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    background: url(./workstation\ 1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-@keyframes example {
-      0%{
-            background: url(./workstation\ 1.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-    15%{
-        background: url(./workstation\ 2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    25%{
-        background: url(./workstation\ 3.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    35%{
-        background: url(./workstattion\ 4.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    60%{
-        background: url(./workstation\ 5.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    78%{
-        background: url(./workstation\ 6.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    87%{
-        background: url(./workstation\ 7.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    100%{
-        background: url(./workstation\ 3.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 10vh;
-    margin-top: -0.5rem;
-    border-radius: 12px;
-    border-style: hidden;
-    padding: 0;
-    align-items: center;
-    background-color: rgb(165, 164, 164);
-}
-.n-left{
-    display: flex;
-    gap: 2rem;
-    margin-left: 3%;
-    padding: 0;
-}
-.themeicon{
-    border-radius: 50%;
-    border: 2px solid black;
-    animation-name: blink;
-    animation-duration: 20s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-.n-right{
-    position: relative;
-    display: flex;
-    left: -10%;
-    gap: 1rem;
-}
-.container{
-    box-shadow: 4px 5px 4px 6px gray;
-    border-radius: 6px;
-    height: 8vh;
-    width: 20vh;
-    display: flex;
-    justify-content: center;
-}
-.contain{
-    box-shadow: 4px 5px 4px 6px gray;
-    border-radius: 8px;
-    text-align: center;
-    height: 7vh;
-    width: 18vh;
-}
-span{
-    margin-top: 0.5rem;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    transform: scale(1.2);
-}
-a:link{
-    color: white;
-}
-a:visited{
-    color: white;
-}
-h2{
-    font-style: oblique;
-    font-weight: 800;
-    /* color: black; */
-}
-.body{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
-}
-.b-left{
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 50%;
-    position: relative;
-    left: -12%;
-    margin-top: 15.45%;
-}
-.b-left>:nth-child(1){
-    border-radius: 50%;
-    border: 5px solid gray;
-    animation-name: blink;
-    animation-duration: 20s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-@keyframes blink {
-    0%{
-        border-color: gray;
-    }
-    20%{
-        border-color: white;
-    }
-    40%{
-        border-color: gray;
-    }
-    60%{
-        border-color: white;
-    }
-    80%{
-        border-color: gray;
-    }
-    100%{
-        border-color: white;
-    }
-}
-
-.n-middle{
-    width: fit-content;
-    display: flex;
-    gap: 2rem;
-}
-.b-right{
-    position: relative;
-    right: 0%;
-    color: white;
-}
-.cont{
-    width: 50vh;
-    height: 20vh;
-    font-size: 2rem;
-    font-weight: 700;
-    font-style: oblique;
-    /* border-radius: 8px;
-    box-shadow: 6px 4px 5px 4px gray; */
-    text-align: center;
-    margin-bottom: 1rem;
-}
-}
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width:320px)and (max-width:765px) {
     body{
-        animation-name: example;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        background: url(./workstation\ 1.jpg);
-        background-size: 720px 1440px;
+        background: url(./Isaac\ Animation.jpg);
+        background-size:765px 800px;
         background-repeat: no-repeat;
-    }
-    @keyframes example {
-        
-         0%{
-            background: url(./workstation\ 1.jpg);
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
-        15%{
-            background: url(./workstation\ 2.jpg);
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
-        25%{
-            background: url(./workstation\ 3.jpg) ;
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
-        35%{
-            background: url(./workstattion\ 4.jpg) ;
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
-        60%{
-            background: url(./workstation\ 5.jpg) ;
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
-        78%{
-            background: url(./workstation\ 6.jpg) ;
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
-        87%{
-            background: url(./workstation\ 7.jpg) ;
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
-        100%{
-            background: url(./workstation\ 6.jpg) ;
-            background-size: 720px 1440px;
-            background-repeat: no-repeat;
-        }
     }
     .navbar{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        position: fixed;
+        z-index: 1;
         width: 100%;
         height: 10vh;
-        margin-top: -0.5rem;
-        border-radius: 12px;
-        border-style: hidden;
-        padding: 0;
-        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+    .b-links{
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
-        background-color: rgb(165, 164, 164);
+        margin-top: 5rem;
+  
     }
-    .n-left{
-        display: flex;
-        gap: 2rem;
-        margin-left: 3%;
-        padding: 0;
-    }
-    .n-left>:nth-child(2){
-        display: none;
-    }
-    .themeicon{
-        border-radius: 50%;
-        border: 2px solid black;
-        animation-name: blink;
-        animation-duration: 20s;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-    }
-    .n-right{
-        display: flex;
-        margin-left: -7%;
-        gap: 1rem;
-        padding-right: 1rem;
-    }
-    .n-right>:nth-child(2){
-        display: none;
-    }
-    .n-right>:nth-child(5){
-        display: none;
-    }
-    .n-right>:nth-child(4){
-        display: none;
-    }
-    .n-right>:nth-child(6){
-        display: none;
+    .n-middle>:nth-child(1){
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border: 1px solid  rgb(216, 117, 24);;
+        border-radius: 12px;
     }
     .n-middle>:nth-child(2){
-        display: none;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border: 1px solid rgb(214, 131, 35);
+        border-radius: 12px;
+    }
+    .n-middle>:nth-child(3){
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border: 1px solid rgb(216, 117, 24);
+        border-radius: 12px;
     }
     span{
         margin-top: 0.5rem;
@@ -303,176 +56,129 @@ h2{
     h2{
         font-style: oblique;
         font-weight: 800;
-        /* color: black; */
+        font-size: 0.7rem;
+        text-align: center;
+        color: rgb(31, 22, 12);
     }
     .body{
         display: flex;
         justify-content: space-around;
-        margin-top: 3rem;
-    }
-    .b-left{
-        display: flex;
-        justify-content: space-evenly;
-        border-radius: 50%;
-        position: relative;
-        left: 20%;
-        margin-top: 125.45%;
-        transform: scale(1.5);
-    }
-    .b-left>:nth-child(1){
-        border-radius: 50%;
-        border: 5px solid gray;
-        animation-name: blink;
-        animation-duration: 20s;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-    }
-    @keyframes blink {
-        0%{
-            border-color: gray;
-        }
-        20%{
-            border-color: white;
-        }
-        40%{
-            border-color: gray;
-        }
-        60%{
-            border-color: white;
-        }
-        80%{
-            border-color: gray;
-        }
-        100%{
-            border-color: white;
-        }
-    }
-    
+        margin-top: 0rem;
+    } 
     .n-middle{
         width: fit-content;
         display: flex;
         gap: 2rem;
     }
     .b-right{
-        position: relative;
-        right: 0%;
+        margin-top: 20rem;
         color: white;
     }
     .cont{
-        width: 35vh;
-        height: 20vh;
+        width: 50vh;
+        height: 3vh;
         font-size: 1.5rem;
         font-weight: 700;
         font-style: oblique;
-        /* border-radius: 8px;
-        box-shadow: 6px 4px 5px 4px gray; */
+        text-align: center;
+        margin-top: 2.8rem;
+        margin-bottom: 0.8rem;
+    }
+    .con{
+        width: 50vh;
+        height: 3vh;
+        font-size: 1rem;
+        font-weight: 200;
+        font-style: oblique;
         text-align: center;
         margin-bottom: 0.5rem;
     }
+    .button{
+        width: 50vh;
+        height: 15vh;
     }
-    @media only screen and (min-width: 721px) and (max-width: 991px)  {
+    button{
+        position: relative;
+        top: 20%;
+        left: 22%;
+        width: 28vh;
+        height: 8vh;
+        margin-bottom:0.6rem;
+        border: 1px solid  violet;
+        border-radius: 12px;
+        color: white;
+        background-color: dimgray;
+        animation-name: glowing;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate
+    }
+
+    @keyframes glowing{
+      0%{
+        background-color: rgb(19, 18, 17);
+        border-color: rgb(122, 26, 122);
+      }
+      25%{
+        background-color: rgb(73, 62, 25);
+        border-color: violet;
+      }
+      50%{
+        background-color: rgb(134, 108, 35);
+        border-color: rgb(243, 145, 243);
+      }
+      75%{
+        background-color: rgb(221, 177, 31);
+        border-color: rgb(243, 168, 243);
+      }
+      100%{
+        background-color: rgb(156, 143, 21);
+        border-color: violet;
+      }
+    }
+    }
+   
+   
+
+    @media only screen and (min-width:766px)and (max-width:1400px) {
         body{
-            animation-name: example;
-            animation-duration: 20s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-            background: url(./workstation\ 1.jpg);
-            background-size: auto 1440px;
+            background: url(./Isaac\ Animation.jpg);
+            background-size:cover;
             background-repeat: no-repeat;
-        }
-        @keyframes example {
-            
-             0%{
-                background: url(./workstation\ 1.jpg);
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
-            15%{
-                background: url(./workstation\ 2.jpg);
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
-            25%{
-                background: url(./workstation\ 3.jpg) ;
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
-            35%{
-                background: url(./workstattion\ 4.jpg) ;
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
-            60%{
-                background: url(./workstation\ 5.jpg) ;
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
-            78%{
-                background: url(./workstation\ 6.jpg) ;
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
-            87%{
-                background: url(./workstation\ 7.jpg) ;
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
-            100%{
-                background: url(./workstation\ 6.jpg) ;
-                background-size: auto 1440px;
-                background-repeat: no-repeat;
-            }
         }
         .navbar{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            position: fixed;
+            z-index: 1;
             width: 100%;
             height: 10vh;
-            margin-top: -0.5rem;
-            border-radius: 12px;
-            border-style: hidden;
-            padding: 0;
-            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+        .b-links{
+            display: flex;
+            justify-content: space-evenly;
             align-items: center;
-            background-color: rgb(165, 164, 164);
+            margin-top: 5rem;
+      
         }
-        .n-left{
-            display: flex;
-            gap: 2rem;
-            margin-left: 3%;
-            padding: 0;
-        }
-        .n-left>:nth-child(2){
-            display: none;
-        }
-        .themeicon{
-            border-radius: 50%;
-            border: 2px solid black;
-            animation-name: blink;
-            animation-duration: 20s;
-            animation-direction: alternate;
-            animation-iteration-count: infinite;
-        }
-        .n-right{
-            display: flex;
-            margin-left: -7%;
-            gap: 1rem;
-            padding-right: 1rem;
-        }
-        .n-right>:nth-child(2){
-            display: none;
-        }
-        .n-right>:nth-child(5){
-            display: none;
-        }
-        .n-right>:nth-child(4){
-            display: none;
-        }
-        .n-right>:nth-child(6){
-            display: none;
+        .n-middle>:nth-child(1){
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            border: 1px solid  rgb(216, 117, 24);;
+            border-radius: 12px;
         }
         .n-middle>:nth-child(2){
-            display: none;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            border: 1px solid rgb(214, 131, 35);
+            border-radius: 12px;
+        }
+        .n-middle>:nth-child(3){
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            border: 1px solid rgb(216, 117, 24);
+            border-radius: 12px;
         }
         span{
             margin-top: 0.5rem;
@@ -492,71 +198,86 @@ h2{
         h2{
             font-style: oblique;
             font-weight: 800;
-            /* color: black; */
+            font-size: 0.7rem;
+            text-align: center;
+            color: rgb(31, 22, 12);
         }
         .body{
             display: flex;
             justify-content: space-around;
-            margin-top: 3rem;
-        }
-        .b-left{
-            display: flex;
-            justify-content: space-evenly;
-            border-radius: 50%;
-            position: relative;
-            left: 20%;
-            margin-top: 125.45%;
-            transform: scale(1.5);
-        }
-        .b-left>:nth-child(1){
-            border-radius: 50%;
-            border: 5px solid gray;
-            animation-name: blink;
-            animation-duration: 20s;
-            animation-direction: alternate;
-            animation-iteration-count: infinite;
-        }
-        @keyframes blink {
-            0%{
-                border-color: gray;
-            }
-            20%{
-                border-color: white;
-            }
-            40%{
-                border-color: gray;
-            }
-            60%{
-                border-color: white;
-            }
-            80%{
-                border-color: gray;
-            }
-            100%{
-                border-color: white;
-            }
-        }
-        
+            margin-top: 0rem;
+        } 
         .n-middle{
             width: fit-content;
             display: flex;
             gap: 2rem;
         }
         .b-right{
-            position: relative;
-            right: 0%;
+            margin-top: 20rem;
             color: white;
         }
         .cont{
-            width: 35vh;
-            height: 20vh;
-            font-size: 1.5rem;
+            width: 150vh;
+            height: 5vh;
+            font-size: 3rem;
             font-weight: 700;
             font-style: oblique;
-            /* border-radius: 8px;
-            box-shadow: 6px 4px 5px 4px gray; */
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+        }
+        .con{
+            width: 150vh;
+            height: 5vh;
+            font-size: 2rem;
+            font-weight: 200;
+            font-style: oblique;
             text-align: center;
             margin-bottom: 0.5rem;
         }
+        .button{
+            width: 150vh;
+            height: 15vh;
         }
-        
+        button{
+            position: relative;
+            top: 20%;
+            left: 38%;
+            width: 36vh;
+            height: 8vh;
+            margin-bottom:0.6rem;
+            border: 1px solid  violet;
+            border-radius: 12px;
+            color: white;
+            background-color: dimgray;
+            animation-name: glowing;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate
+        }
+    
+        @keyframes glowing{
+          0%{
+            background-color: rgb(59, 59, 59);
+            border-color: rgb(122, 26, 122);
+          }
+          25%{
+            background-color: rgb(34, 33, 33);
+            border-color: violet;
+          }
+          50%{
+            background-color: rgb(37, 36, 36);
+            border-color: rgb(243, 145, 243);
+          }
+          75%{
+            background-color: rgb(39, 38, 38);
+            border-color: rgb(243, 168, 243);
+          }
+          100%{
+            background-color: rgb(15, 15, 15);
+            border-color: violet;
+          }
+        }
+        }
+       
+       

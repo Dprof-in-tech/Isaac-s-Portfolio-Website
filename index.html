@@ -9,18 +9,35 @@
     <link rel="shortcut icon" href="./ReadyPlayerMe-Avatar.png" type="image/x-icon">
     <title>My Portfolio</title>
 </head>
-<body>
+<body onload="playAudio()">
     <section>
         <div class="navbar">
-            <div class="n-left">
-                <img src="./themeicon.png" class="themeicon" alt="Dark/Light Mode Toggle" onclick="dark(), animationend()" ondblclick="light(), animationstart()" height="30px" width="30px" >
-                    <span>HELLO</span>
-            </div>
             <div class="n-middle">
                 <a href="profile.html"><h3>PROFILE</h3></a>
+                <a href=""><h3>GALLERY</h3></a>
                 <a href=""><h3>PORTFOLIO</h3></a>
             </div>
-            <div class="n-right">
+            
+        </div>
+    </section>
+    <section>
+        <div class="body">
+            <div class="b-right">
+                <div class="cont" id="intro">
+                    
+                </div>
+                <div class="con" id="about">
+                    
+                </div>
+                <div class="button">
+                <button type="button">Hire me</button><br>
+                <button type="button">Download Resume</button>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="b-links">
             <a href=""><img src="./Facebook.png" alt="" height="30px" width="30px"></a>
                 <a href=""><img src="./twittericon.png" alt="" height="30px" width="30px"></a>
                 <a href=""><img src="./instagram.png" alt="" height="30px" width="30px"></a>
@@ -29,29 +46,14 @@
                 <a href=""><img src="./fiverr.png" alt="" height="30px" width="30px"></a>
                 <a href="Https://cartwrightpps.tk"><img src="./pngkey.com-globe-icons-png-3470107.png" alt="" height="30px" width="30px"></a>
             </div>
-        </div>
     </section>
-    <section>
-        <div class="body">
-            <div class="b-left">
-                <img src="./ReadyPlayerMe-Avatar.png" alt="Isaac's Avatar" height="300px" width="300px">
-                
-            </div>
-            <div class="b-right">
-                <div class="cont">
-                    <span>Hi,</span><br>
-                    <span>Welcome to my Portfolio,</span><br>
-                    <span>I'm ISAAC.</span>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    
-    <section>
-        <div class="footer">
-                
-        </div>
-    </section>
+    <span><h2>Copyright @Cartwright 2023</h2></span>
+    <script>
+        function playAudio(){
+            var audio = new Audio("./Libianca-People-_-Instrumental.mp3");
+            audio.loop=true;
+            audio.play();
+        }
+    </script>
 </body>
 </html>
