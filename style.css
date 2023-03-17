@@ -60,6 +60,12 @@
         text-align: center;
         color: rgb(31, 22, 12);
     }
+    h3{
+        font-style: oblique;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center; 
+    }
     .body{
         display: flex;
         justify-content: space-around;
