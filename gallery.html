@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./ReadyPlayerMe-Avatar.png" type="image/x-icon">
     <title>My Portfolio.</title>
 </head>
-<body>
+<body onload="playAudio()">
 
     <div class="body">
         <a href="index.html"><button type="button" class="home"><h3>Home</h3></button></a>
@@ -53,5 +53,13 @@
         </div>
 
     </div>
+
+    <script>
+        function playAudio(){
+            var audio = new Audio("./Libianca-People-_-Instrumental.mp3");
+            audio.loop=true;
+            audio.play();
+        }
+    </script>
 </body>
 </html>
