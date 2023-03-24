@@ -39,5 +39,3 @@ function printCon(about, message, speed){
 }
 printCon( "about", "I'm a DIGITAL MARKETER. ", 90);
 
-
-
