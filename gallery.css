@@ -25,11 +25,11 @@ body{
     border-left:8px solid violet;
 }
 .p-body>span>h3{
-    max-width: 85%;
+    max-width: 97%;
 }
 .p-pic{
     height: 40vh;
-    width: 75vh;
+    width: 100%;
 }
 .p-pic>img{
     border-radius: 8px;
