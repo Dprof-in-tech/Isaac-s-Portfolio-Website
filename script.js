@@ -37,5 +37,5 @@ function printCon(about, message, speed){
         }
     }, speed);
 }
-printCon( "about", "I'm a DIGITAL MARKETER. ", 90);
+printCon( "about", "I'm a DIGITAL MARKETER | FULL-STACK WEB DEVELOPER. ", 90);
 
