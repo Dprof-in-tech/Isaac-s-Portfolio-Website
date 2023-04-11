@@ -160,144 +160,175 @@
    
    
 
-    @media only screen and (min-width:766px)and (max-width:1400px) {
+    @media only screen and (min-width:766px) {
         body{
-            background: url(./img/background8.jpg);
+            background: url(./img/Isaac\ Animation.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
-        .navbar{
-            display: flex;
-            justify-content: center;
-            position: fixed;
-            z-index: 1;
-            width: 100%;
-            height: 10vh;
-            margin-top: 0.5rem;
+        
         }
-        .b-links{
+       .body{
             display: flex;
             justify-content: space-evenly;
-            align-items: center;
-            margin-top: 5rem;
-      
-        }
-        .n-middle>:nth-child(1){
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
-            border: 1px solid  rgb(216, 117, 24);;
-            border-radius: 12px;
-        }
-        .n-middle>:nth-child(2){
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
-            border: 1px solid rgb(214, 131, 35);
-            border-radius: 12px;
-        }
-        .n-middle>:nth-child(3){
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
-            border: 1px solid rgb(216, 117, 24);
-            border-radius: 12px;
-        }
-        span{
-            margin-top: 0.5rem;
-        }
-        a{
-            text-decoration: none;
-        }
-        a:hover{
-            transform: scale(1.2);
-        }
-        a:link{
-            color: white;
-        }
-        a:visited{
-            color: white;
-        }
-        h2{
-            font-style: oblique;
-            font-weight: 800;
-            font-size: 0.7rem;
-            text-align: center;
-            color: rgb(31, 22, 12);
-        }
-        .body{
+       }
+       a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a:hover{
+        transform: scale(1.2);
+    }
+    a:link{
+        color: white;
+    }
+    a:visited{
+        color: white;
+    }
+       .navbar, .n-middle{
             display: flex;
-            justify-content: space-around;
-            margin-top: 0rem;
-        } 
-        .n-middle{
-            width: fit-content;
-            display: flex;
-            gap: 2rem;
-        }
-        .b-right{
-            margin-top: 20rem;
-            color: white;
-        }
-        .cont{
-            width: 150vh;
-            height: 5vh;
-            font-size: 3rem;
-            font-weight: 700;
-            font-style: oblique;
-            text-align: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            gap: 5rem;
             margin-top: 2rem;
-            margin-bottom: 0.8rem;
-        }
-        .con{
-            width: 150vh;
-            height: 5vh;
-            font-size: 2rem;
-            font-weight: 200;
-            font-style: oblique;
-            text-align: center;
-            margin-bottom: 0.5rem;
-        }
-        .button{
-            width: 150vh;
-            height: 15vh;
-        }
-        button{
             position: relative;
-            top: 20%;
-            left: 38%;
-            width: 36vh;
-            height: 8vh;
-            margin-bottom:0.6rem;
-            border: 1px solid  violet;
-            border-radius: 12px;
-            color: white;
-            background-color: dimgray;
-            animation-name: glowing;
-            animation-duration: 4s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate
-        }
-    
-        @keyframes glowing{
-          0%{
-            background-color: rgb(59, 59, 59);
-            border-color: rgb(122, 26, 122);
-          }
-          25%{
-            background-color: rgb(34, 33, 33);
-            border-color: violet;
-          }
-          50%{
-            background-color: rgb(37, 36, 36);
-            border-color: rgb(243, 145, 243);
-          }
-          75%{
-            background-color: rgb(39, 38, 38);
-            border-color: rgb(243, 168, 243);
-          }
-          100%{
-            background-color: rgb(15, 15, 15);
-            border-color: violet;
-          }
-        }
-        }
-       
+            left:-14%;
+       }
+       .n-middle>:nth-child(1){
+        padding-left: 0.2rem;
+        border: 1px solid  rgb(216, 117, 24);;
+        border-radius: 12px;
+        height: 20vh;
+        width: 30vh;
+        text-align: center;
+    }
+    .n-middle>:nth-child(2){
+        padding-left: 0.2rem;
+        border: 1px solid rgb(214, 131, 35);
+        border-radius: 12px;
+        height: 20vh;
+        width: 30vh;
+        text-align: center;
+    }
+    .n-middle>:nth-child(3){
+        padding: 0.2rem;
+        border: 1px solid rgb(216, 117, 24);
+        border-radius: 12px;
+        height: 20vh;
+        width: 30vh;
+        text-align: center;
+    }
+
+    .b-right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -5%;
+    }
+    h2{
+        font-style: oblique;
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-align: center;
+        color: rgb(31, 22, 12);
+    }
+    h3{
+        font-style: oblique;
+        font-weight: 800;
+        font-size: 0.8rem;
+        text-align: center; 
+    }
+    .cont, .container{
+        width: 60vh;
+        height: 3vh;
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-style: oblique;
+        text-align: center;
+        margin-top: 2.8rem;
+        color: rgb(231, 230, 230);
+        margin-bottom: 0.8rem;
+    }
+    .con, .contain{
+        width: 60vh;
+        height: 3vh;
+        font-size: 1.5rem;
+        font-weight: 200;
+        font-style: oblique;
+        text-align: center;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .button{
+        margin-top: 2rem;
+        width: 50vh;
+        height: 15vh;
+    }
+   
+    button{
+        position: relative;
+        top: 20%;
+        width: 28vh;
+        height: 8vh;
+        margin-bottom:0.6rem;
+        border: 1px solid  violet;
+        border-radius: 12px;
+        color: white;
+        background-color: dimgray;
+        animation-name: glowing;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate
+    }
+    button:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+    .b-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+        position: relative;
+        left: -4%;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+        color: white;
+    }
+
+    @keyframes glowing{
+      0%{
+        background-color: rgb(19, 18, 17);
+        border-color: rgb(122, 26, 122);
+      }
+      25%{
+        background-color: rgb(73, 62, 25);
+        border-color: violet;
+      }
+      50%{
+        background-color: rgb(134, 108, 35);
+        border-color: rgb(243, 145, 243);
+      }
+      75%{
+        background-color: rgb(221, 177, 31);
+        border-color: rgb(243, 168, 243);
+      }
+      100%{
+        background-color: rgb(156, 143, 21);
+        border-color: violet;
+      }
+    }
+     .copyright{
+        display: none;
+       }
        
