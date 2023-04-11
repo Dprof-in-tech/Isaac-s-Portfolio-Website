@@ -5,61 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gallery.css">
-    <link rel="shortcut icon" href="./ReadyPlayerMe-Avatar.png" type="image/x-icon">
-    <title>My Portfolio.</title>
+    <link rel="shortcut icon" href="./img/ReadyPlayerMe-Avatar.png" type="image/x-icon">
+    <title>Cartwright's Portfolio.</title>
 </head>
 <body onload="playAudio()">
+    <!-- Facebook Page cartwright promotions sdk begins -->
+    <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v16.0" 
+        nonce="LQ1hlS01">
+    </script>
+    <!-- SDK end -->
 
+    <!-- container begins -->
     <div class="body">
-        <a href="index.html"><button type="button" class="home"><h3>Home</h3></button></a>
-
-        <div class="p-body">
-            <span>
-                <h2>To-Do App</h2>
-                <h3>
-                    This is  a custom webapp developed to help you keep tabs on your 
-                    pending activities. it comes with an alarm and Reminder alerts
-                    so as to keep you going for the day.
-                </h3>
-            </span>
-
-            <div class="p-pic">
-                <img src="./2023-03-24 (3).png" alt="">
-            </div>
-
-            <div class="p-button">
-                <button>Live site</button>
-                <button>View Code</button>
-            </div>
+        <a href="index.html"><button type="button" class="home">Home</button></a>
+        <div class="header">
+            <H1>PAGES I MANAGE</H1>
         </div>
-
+        
+        <!-- Post container begins -->
         <div class="p-body">
             <span>
                 <h2>Cartwright Promotions</h2>
                 <h3>
-                    This is  a Digital Marketing Agency offering a range of services from 
-                    Education to professional services in the Digital Marketing industry.
+                    This is the Official website for the Digital Marketing and Advertising Agency
+                    based in Nigeria, Cartwright Promotions.
                 </h3>
             </span>
 
             <div class="p-pic">
-                <img src="./Cartwright Promotions sample landing reveal.jpg" alt="">
+                <div class="fb-page" data-href="https://www.facebook.com/CartwrightPromotions/" 
+                   data-tabs="timeline" data-width="500" 
+                   data-height="700" data-small-header="false" 
+                   data-adapt-container-width="true" 
+                   data-hide-cover="false" data-show-facepile="true">
+                   <blockquote cite="https://www.facebook.com/CartwrightPromotions/" 
+                       class="fb-xfbml-parse-ignore">
+                       <a href="https://www.facebook.com/CartwrightPromotions/">Cartwright Promotions</a>
+                   </blockquote>
+                </div>
             </div>
 
             <div class="p-button">
-                <a href="https://www.cartwrightpps.tk"><button>Live site</button></a>
-                <a href="https://github.com/Cartwrightfx/Cartwright-Promotions"><button >View Code</button></a>
+                <a href="https://www.facebook.com/CartwrightPromotions/"><button>View Page</button></a>
+            </div>
+        </div>
+        
+        <!-- Post container ends -->
+        <!-- Post Container begins -->
+        <div class="p-body">
+            <span>
+                <h2>Deeper Christian Life Ministry Enugu State 2</h2>
+                <h3>
+                  This is the official facebook page of the Deeper Christian Life Ministries, 
+                  Enugu State 2 branch. Set to help you in your walk with God.
+                </h3>
+            </span>
+
+            <div class="p-pic">
+                <div class="fb-page" data-href="https://web.facebook.com/100083547939053/" 
+                data-tabs="timeline" data-width="500" data-height="500" 
+                data-small-header="false" data-adapt-container-width="true" 
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://web.facebook.com/100083547939053/" class="fb-xfbml-parse-ignore">
+                <a href="https://web.facebook.com/100083547939053/">Deeper Christian Life Ministry Enugu State 2</a>
+                </blockquote>
+                </div>
+            </div>
+
+            <div class="p-button">
+                <a href="https://web.facebook.com/100083547939053/"><button>Visit Page</button></a>                
+            </div>
+        </div>
+        
+        <!-- Post container ends -->
+        <!-- Post container begins -->
+        <div class="p-body">
+            <span>
+                <h2>DamYoung Graphics</h2>
+                <h3>
+                   The Official facebook page for one of the best in the Graphics design Niche, damyounggraphics.
+                   Dedicated to customer satisfaction, Visit this Page now!!
+                </h3>
+            </span>
+
+            <div class="p-pic">
+                <div class="fb-page" data-href="https://web.facebook.com/damyounggraphics"
+                 data-tabs="timeline" data-width="500" data-height="500" 
+                 data-small-header="false" data-adapt-container-width="true" 
+                 data-hide-cover="false" data-show-facepile="true">
+                 <blockquote cite="https://web.facebook.com/damyounggraphics" class="fb-xfbml-parse-ignore">
+                    <a href="https://web.facebook.com/damyounggraphics">Damyoung Graphics</a></blockquote></div>
+            </div>
+
+            <div class="p-button">
+                <a href="https://web.facebook.com/damyounggraphics"><button>Visit Page</button></a>
             </div>
         </div>
 
     </div>
-
+    <!-- Container ends -->
+    
+    <!-- Post container ends -->
+    <!-- JS play Audio in Background begins -->
     <script>
         function playAudio(){
-            var audio = new Audio("./Libianca-People-_-Instrumental.mp3");
+            var audio = new Audio("./audio/Libianca-People-_-Instrumental.mp3");
             audio.loop=true;
             audio.play();
         }
     </script>
+    <!-- JS background audio ends -->
 </body>
 </html>

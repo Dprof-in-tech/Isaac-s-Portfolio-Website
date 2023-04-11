@@ -1,9 +1,10 @@
 @media only screen and (min-width:320px)and (max-width:765px) {
     body{
-        background: url(./Isaac\ Animation.jpg);
-        background-size:765px 800px;
+        background: url(./img/Isaac\ Animation.jpg);
+        background-size:720px 1440px;
         background-repeat: no-repeat;
     }
+    
     .navbar{
         display: flex;
         justify-content: center;
@@ -104,6 +105,7 @@
         width: 50vh;
         height: 15vh;
     }
+   
     button{
         position: relative;
         top: 20%;
@@ -119,6 +121,17 @@
         animation-duration: 4s;
         animation-iteration-count: infinite;
         animation-direction: alternate
+    }
+    button:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+        color: white;
     }
 
     @keyframes glowing{
@@ -149,8 +162,8 @@
 
     @media only screen and (min-width:766px)and (max-width:1400px) {
         body{
-            background: url(./Isaac\ Animation.jpg);
-            background-size:cover;
+            background: url(./img/background8.jpg);
+            background-size: cover;
             background-repeat: no-repeat;
         }
         .navbar{
