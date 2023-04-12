@@ -1,7 +1,7 @@
 @media only screen and (max-width:765px) {
     body{
         background: url(./img/Isaac\ Animation.jpg);
-        background-size:720px 1440px;
+        background-size:720px 1080px;
         background-repeat: no-repeat;
     }
     .body{
@@ -77,7 +77,7 @@
         text-align: center; 
     }
     .b-right{
-        margin-top: 12rem;
+        margin-top: 8rem;
         color: white;
     }
     .cont, .container{
