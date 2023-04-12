@@ -1,7 +1,7 @@
 @media only screen and (max-width:765px) {
     body{
         background: url(./img/Isaac\ Animation.jpg);
-        background-size:720px 1080px;
+        background-size:640px 1080px;
         background-repeat: no-repeat;
     }
     .body{
@@ -23,7 +23,7 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
-        gap: 1rem;
+        gap: 2.5rem;
         width: 100%;
         margin-top: 1rem;
         text-align: center;
