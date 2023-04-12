@@ -23,7 +23,7 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
-        gap: 4rem;
+        gap: 1rem;
         width: 100%;
         margin-top: 1rem;
         text-align: center;
@@ -76,7 +76,7 @@
         text-align: center; 
     }
     .b-right{
-        margin-top: 22rem;
+        margin-top: 12rem;
         color: white;
     }
     .cont, .container{
