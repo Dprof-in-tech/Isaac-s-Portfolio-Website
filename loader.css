@@ -1,13 +1,14 @@
-
+@media only screen and (max-width: 765px){
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(7, 7, 7);
 }
 #loading{
     position: relative;
-    margin-top: 40%;
+    margin-top: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,5 +48,60 @@ body{
     to {
       stroke-dashoffset: 0;
     }
-  }
+  }  
+}
 
+
+@media only screen and (min-width: 765.1px){
+  body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(7, 7, 7);
+  }
+  #loading{
+      position: relative;
+      margin-top: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  #loading>h3{
+      position: relative;
+      left: 10%;
+      color: #ff4d4f;
+      animation: dash_682 1.4s linear infinite
+  }
+  .loading svg polyline {
+      fill: none;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    
+    .loading svg polyline#back {
+      fill: none;
+      stroke: #ff4d5033;
+    }
+    
+    .loading svg polyline#front {
+      fill: none;
+      stroke: #ff4d4f;
+      stroke-dasharray: 48, 144;
+      stroke-dashoffset: 192;
+      animation: dash_682 1.4s linear infinite;
+    }
+    
+    @keyframes dash_682 {
+      72.5% {
+        opacity: 0;
+      }
+    
+      to {
+        stroke-dashoffset: 0;
+      }
+    }  
+  }
+  
