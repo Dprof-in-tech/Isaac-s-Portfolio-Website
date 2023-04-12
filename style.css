@@ -27,6 +27,7 @@
         width: 100%;
         margin-top: 1rem;
         text-align: center;
+        transform: scale(0.8)
    }
    .n-middle:hover{
        transform: scale(1.2);
@@ -109,7 +110,7 @@
         left: 22%;
         width: 28vh;
         height: 8vh;
-        margin-bottom:0.6rem;
+        margin-bottom:0.2rem;
         border: 1px solid  violet;
         border-radius: 12px;
         color: white;
