@@ -1,7 +1,7 @@
 @media only screen and (max-width:765px) {
     body{
         background: url(./img/Isaac\ Animation.jpg);
-        background-size:420px 780px;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .body{
