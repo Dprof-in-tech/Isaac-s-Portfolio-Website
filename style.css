@@ -1,4 +1,4 @@
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 765px) {
     body{
         background: url(./img/Isaac\ Animation.jpg);
         background-size: cover;
@@ -220,7 +220,7 @@
     }
 
     .b-right{
-        width: 50%;
+        width: 60%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -242,7 +242,7 @@
         text-align: center; 
     }
     .cont, .container{
-        width: 60vh;
+        width: 95%;
         height: 3vh;
         font-size: 2.5rem;
         font-weight: 700;
@@ -253,7 +253,7 @@
         margin-bottom: 0.8rem;
     }
     .con, .contain{
-        width: 60vh;
+        width: 95%;
         height: 3vh;
         font-size: 1.5rem;
         font-weight: 200;
@@ -264,10 +264,39 @@
         margin-bottom: 0.5rem;
     }
     .button{
-        margin-top: 2rem;
-        width: 50vh;
-        height: 15vh;
+        margin-top: 4rem;
     }
+    .shadow_btn{
+        margin-top: 0.5rem;
+        width: 50vh;
+        height: 12vh;
+    }
+
+    .shadow_btn {
+        padding: 10px 20px;
+        border: none;
+        font-size: 1rem;
+        font-style: oblique;
+        color: #fff;
+        border-radius: 12px;
+        letter-spacing: 2px;
+        font-weight: 900;
+        text-transform: uppercase;
+        transition: 0.5s;
+        transition-property: box-shadow;
+      }
+      
+      .shadow_btn {
+        background: #E1851E;
+        box-shadow: 0 0 25px rgb(151, 131, 18);
+      }
+      
+      .shadow_btn:hover {
+        box-shadow: 0 0 5px rgb(153, 126, 8),
+                    0 0 10px rgb(199, 158, 23),
+                    0 0 15px rgb(209, 157, 14),
+                    0 0 25px rgb(255, 196, 0);
+      }
    
     button{
         position: relative;
@@ -275,19 +304,18 @@
         width: 28vh;
         height: 8vh;
         margin-bottom:0.6rem;
-        border: 1px solid  violet;
         border-radius: 12px;
         color: white;
-        background-color: dimgray;
+        /* background-color: dimgray;
         animation-name: glowing;
         animation-duration: 4s;
         animation-iteration-count: infinite;
-        animation-direction: alternate
+        animation-direction: alternate */
     }
-    button:hover{
+    /* button:hover{
         cursor: pointer;
         transform: scale(1.05);
-    }
+    } */
     .b-links{
         display: flex;
         flex-direction: column;

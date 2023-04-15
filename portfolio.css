@@ -13,7 +13,7 @@ body{
     border:transparent 1px burlywood;
     border-radius: 8px;
     height: max-content;
-    width: 95%;
+    width: 65%;
 }
 .p-body{
     margin-top: 2rem;
@@ -34,8 +34,8 @@ body{
     max-width: 97%;
 }
 .p-pic{
-    height: 30vh;
-    width: 120%;
+    height: 40%;
+    width: 100%;
 }
 .p-pic>img{
     border-radius: 8px;
@@ -51,11 +51,11 @@ body{
 }
 button{
     height: 7vh;
-    width: 18vh;
+    width: 22;
     border-radius: 8px;
     background-color: gray;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 button:hover{
     transform: scale(1.1);
